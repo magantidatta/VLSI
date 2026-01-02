@@ -107,7 +107,7 @@ Complete details including algorithm comparison, methodology, hardware setup,
 code implementation, and performance analysis are available in the project report.
 
 🔗 **Report Link:**  
-[Real-Time Image Edge Detection on Zynq UltraScale+ MPSoC (PDF)](FPGA%20Project%20Report.pdf)
+[Real-Time Image Edge Detection on Zynq UltraScale+ MPSoC (PDF)](https://github.com/magantidatta/VLSI/blob/main/FPGA_Design/Image%20Processing/FPGA%20Project%20Report.pdf)
 
 ---
 
