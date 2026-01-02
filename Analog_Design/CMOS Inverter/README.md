@@ -42,6 +42,14 @@ highlighting the inherent **leakage–delay trade-off** in low-power CMOS design
 
 ---
 
+## Documentation
+📄 **Project Report:**  
+All design details, analysis methodology, simulation results, and observations
+are documented in the project report.
+
+🔗 **Report Link:**  
+[CMOS Inverter Leakage Power Optimization – Project Report (PDF)](https://github.com/magantidatta/VLSI/blob/main/Analog_Design/CMOS%20Inverter/CMOS%20Term%20Project%20Report.pdf)
+
 ## Tools Used
 - **LTSpice**
 - **SPICE-based circuit simulation**
