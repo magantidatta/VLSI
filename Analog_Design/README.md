@@ -1,9 +1,6 @@
 # Analog VLSI Design Projects
 
-This directory contains **analog CMOS VLSI design projects** focusing on  
-**circuit-level analysis**, **performance optimization**, and **SPICE-based simulations**.  
-The projects demonstrate practical understanding of **analog building blocks**,  
-**design trade-offs**, and **industry-relevant analog design methodologies**.
+This directory contains **analog CMOS VLSI design projects** focusing on **circuit-level analysis**, **performance optimization**, and **SPICE-based simulations**. The projects demonstrate practical understanding of **analog building blocks**, **design trade-offs**, and **industry-relevant analog design methodologies**.
 
 ---
 
