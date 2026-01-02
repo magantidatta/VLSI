@@ -51,7 +51,9 @@ The above results were obtained from **AC response analysis** and are verified t
 All design details, schematics, AC response plots, transient response, and layout information
 are documented in the academic poster presented for this project.
 
-> Refer to the `Poster/` directory for the complete project poster.
+🔗 **Poster Link:**  
+[Poster of Two Stage CMOS OP-AMP](https://github.com/magantidatta/VLSI/blob/main/Analog_Design/Two_Stage_CMOS_OpAmp/Poster%20of%20Two%20Stage%20CMOS%20OP-AMP.png)
+
 
 ---
 
