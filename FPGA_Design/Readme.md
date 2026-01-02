@@ -20,7 +20,7 @@ This directory contains **FPGA-based hardware design projects** focusing on **re
 
 ## Tools and Technologies
 - Verilog HDL
-- Vivado / Vivado HLS
+- Vivado
 - FPGA development boards
 - UART and peripheral interfacing
 
