@@ -25,18 +25,7 @@ The projects demonstrate practical understanding of **analog building blocks**,
 - **Cadence Virtuoso**
 - **LTSpice**
 - **SPICE-based circuit simulation**
-- **CMOS device modeling**
 
 ---
 
-## Learning Objectives
-- Understand **analog CMOS circuit operation**
-- Analyze **frequency response and stability**
-- Apply **low-power design techniques**
-- Gain hands-on experience with **industry-standard EDA tools**
 
----
-
-## Note
-Each project is organized in a dedicated subfolder containing  
-**design details**, **results**, and **key learnings**.
