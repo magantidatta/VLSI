@@ -17,9 +17,8 @@ using **Python and OpenCV**, with live image capture from a USB camera.
 ## Platform and Tools
 - **FPGA Board:** Zynq UltraScale+ MPSoC ZCU104
 - **Processing Unit:** ARM Cortex-A53 (PS)
-- **Operating System:** PYNQ OS (Linux)
 - **Programming Language:** Python
-- **Libraries:** OpenCV, NumPy, Matplotlib
+- **Libraries:** OpenCV
 - **Camera:** See3CAM_CU30 USB Camera
 
 ---
