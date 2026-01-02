@@ -67,7 +67,7 @@ Complete system design, block diagrams, hardware connections, code, and results
 are documented in the project report.
 
 🔗 **Report Link:**  
-[Implementation of Car Parking System using VEGA Processor (PDF)]
+[Implementation of Car Parking System using VEGA Processor (PDF)] (Internship Project/M. Shanmukha Sri Datta Major Project Report.pdf)
 
 ---
 
