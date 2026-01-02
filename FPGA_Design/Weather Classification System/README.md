@@ -70,7 +70,7 @@ Weather conditions are encoded to ensure clear visualization in the waveform.
 ## Hardware Results
 
 ### 📌 Fig.5 Hardware Output on LCD Display
-![LCD Output](https://github.com/magantidatta/VLSI/blob/main/FPGA_Design/Weather%20Classification%20System/Fig5.png)
+![LCD Output](https://github.com/magantidatta/VLSI/blob/main/FPGA_Design/Weather%20Classification%20System/Fig5.jpeg)
 
 The LCD displays real-time temperature, humidity, and classified weather condition directly from
 the FPGA, confirming correct sensor interfacing and hardware operation.
@@ -78,7 +78,7 @@ the FPGA, confirming correct sensor interfacing and hardware operation.
 ---
 
 ### 📌 Fig.6 PuTTY Terminal Output (UART)
-![PuTTY Output](https://github.com/magantidatta/VLSI/blob/main/FPGA_Design/Weather%20Classification%20System/Fig6.png)
+![PuTTY Output](https://github.com/magantidatta/VLSI/blob/main/FPGA_Design/Weather%20Classification%20System/Fig6.jpeg)
 
 The same information is transmitted to a PC through UART and displayed on the PuTTY terminal,
 enabling real-time monitoring without internet connectivity.
