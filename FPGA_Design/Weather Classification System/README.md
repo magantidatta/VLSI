@@ -100,18 +100,25 @@ successful real-time operation, reliable sensor interfacing, and fully offline e
 
 ---
 
+## Source Code
+The repository includes **Verilog (.v) source files** corresponding to the RTL modules used in this project.
+These files are provided for **reference, learning, and further experimentation**, allowing others to
+understand the hardware implementation and extend the design if required.
+
+---
+
 ## Tools and Technologies
 - **FPGA Board:** Basys3
 - **HDL:** Verilog
 - **Sensor:** DHT11 (Temperature and Humidity)
-- **Simulation Tool:**  Vivado
+- **Simulation Tool:** Vivado
 - **Interfaces:** UART, LCD
 - **Machine Learning:** Decision Tree (Python)
 
 ---
 
 ## Future Scope
-Future work will focus on  **classification accuracy** by exploring more machine
+Future work will focus on improving **classification accuracy** by exploring more advanced machine
 learning models and optimized threshold extraction techniques. With the hardware integration already
 validated, the system can be extended to support models achieving **near 99% accuracy**, while
 maintaining offline operation and FPGA-based deployment.
