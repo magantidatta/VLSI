@@ -85,6 +85,24 @@ enabling real-time monitoring without internet connectivity.
 
 ---
 
+## Dataset and Machine Learning Code
+The machine learning portion of this project was used **only to derive decision thresholds** for
+hardware implementation. The trained model itself is **not deployed on FPGA**.
+
+- 📊 **Weather Dataset (CSV):**  
+  Contains temperature and humidity data used for training the Decision Tree classifier.  
+  🔗 [Weather_Data.csv](https://github.com/magantidatta/VLSI/blob/main/FPGA_Design/Weather%20Classification%20System/Weather_Data.csv)
+
+- 🧠 **Threshold Extraction Notebook (Python):**  
+  Trains the Decision Tree model and extracts decision boundaries that are manually translated
+  into Verilog `if–else` logic for FPGA deployment.  
+  🔗 [Threshold_Logics_for_Real_Time_Weather_Classification.ipynb](https://github.com/magantidatta/VLSI/blob/main/FPGA_Design/Weather%20Classification%20System/Threshold_Logics_for_Real_Time_Weather_Classification.ipynb)
+
+This approach ensures a **clear separation between model training and hardware realization**, making
+the system suitable for offline, deterministic FPGA execution.
+
+---
+
 ## Design Considerations and Engineering Challenges
 Although the project appears conceptually simple, **interfacing standard IoT sensors with the Basys3 FPGA
 board presents practical challenges**. Unlike microcontroller platforms such as Arduino or ESP32, the
