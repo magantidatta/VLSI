@@ -1,4 +1,4 @@
-# Real-Time Weather Classification System using FPGA
+# Real-Time Weather Classification System using Basy3 FPGA
 
 ## Problem Statement
 Many regions lack reliable internet connectivity and consistent power supply, making it difficult to deploy
@@ -85,6 +85,21 @@ enabling real-time monitoring without internet connectivity.
 
 ---
 
+## Design Considerations and Engineering Challenges
+Although the project appears conceptually simple, **interfacing standard IoT sensors with the Basys3 FPGA
+board presents practical challenges**. Unlike microcontroller platforms such as Arduino or ESP32, the
+Basys3 FPGA does not provide prebuilt libraries or high-level driver support for sensor interfacing.
+
+A key objective of this project was to demonstrate that **low-cost, commonly available IoT sensors can be
+directly integrated with an FPGA**, without relying on proprietary or expensive PMOD sensor modules.
+This approach reduces system cost and improves accessibility for real-world deployments.
+
+As the primary focus was on **hardware integration and RTL-based system design**, the classification
+accuracy of the decision tree model was not prioritized in this phase. Instead, emphasis was placed on
+successful real-time operation, reliable sensor interfacing, and fully offline execution.
+
+---
+
 ## Tools and Technologies
 - **FPGA Board:** Basys3
 - **HDL:** Verilog
@@ -92,6 +107,18 @@ enabling real-time monitoring without internet connectivity.
 - **Simulation Tool:** ModelSim / Vivado Simulator
 - **Interfaces:** UART, LCD
 - **Machine Learning:** Decision Tree (Python)
+
+---
+
+## Future Scope
+Future work will focus on  **classification accuracy** by exploring more machine
+learning models and optimized threshold extraction techniques. With the hardware integration already
+validated, the system can be extended to support models achieving **near 99% accuracy**, while
+maintaining offline operation and FPGA-based deployment.
+
+Additional enhancements may include:
+- Improved decision logic optimization
+- Scalability to multi-parameter environmental monitoring
 
 ---
 
