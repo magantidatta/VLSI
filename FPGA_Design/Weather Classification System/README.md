@@ -1,4 +1,4 @@
-# Real-Time Weather Classification System using Basy3 FPGA
+# Real-Time Weather Classification System using Basys3 FPGA
 
 ## Problem Statement
 Many regions lack reliable internet connectivity and consistent power supply, making it difficult to deploy
