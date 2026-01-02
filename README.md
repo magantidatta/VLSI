@@ -78,5 +78,5 @@ If you have suggestions, feedback, or collaboration ideas, feel free to connect 
 - **Email:** magantishanmukhasridatta@gmail.com
 - **GitHub:** https://github.com/magantidatta
 
-If you have suggestions, feedback, or collaboration ideas, feel free to connect via LinkedIn or GitHub.
+If you have suggestions, feedback, or collaboration ideas, feel free to connect via LinkedIn or Mail.
 
