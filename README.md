@@ -1,6 +1,6 @@
 # 🔧 VLSI Design Repository
 
-This repository contains a curated collection of **VLSI design projects, implementation notes, and learning resources**, developed as part of my academic and hands-on experience in **VLSI Design and Semiconductor Engineering**.
+This repository contains a curated collection of **VLSI design projects**, developed as part of my academic and hands-on experience in **VLSI Design and Semiconductor Engineering**.
 
 It serves as both a **technical portfolio** and a **structured knowledge base**, covering core concepts and practical workflows used in the semiconductor industry.
 
