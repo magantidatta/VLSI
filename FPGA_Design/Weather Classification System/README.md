@@ -104,7 +104,7 @@ successful real-time operation, reliable sensor interfacing, and fully offline e
 - **FPGA Board:** Basys3
 - **HDL:** Verilog
 - **Sensor:** DHT11 (Temperature and Humidity)
-- **Simulation Tool:** ModelSim / Vivado Simulator
+- **Simulation Tool:**  Vivado
 - **Interfaces:** UART, LCD
 - **Machine Learning:** Decision Tree (Python)
 
