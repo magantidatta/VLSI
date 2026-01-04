@@ -2,77 +2,109 @@
 
 ## Overview
 
-Modern digital designs are highly complex and require systematic verification
-to ensure correctness under all possible operating conditions.
+Modern digital hardware designs have grown enormously in complexity, making
+traditional directed testing insufficient for achieving verification
+completeness.
 
-This document provides a **high-level overview** of why traditional Verilog-based
-directed testing is insufficient and why **SystemVerilog is essential for modern
-verification**.
+This document establishes the **conceptual foundation of modern hardware
+verification**, explaining **why SystemVerilog was created** and **why it is
+essential** for scalable, coverage-driven verification.
 
-For detailed explanations, examples, and conceptual depth, refer to the
-accompanying PDF.
+Rather than focusing on syntax or tools, this phase explains the **core
+verification principles** used in industry.
 
-📄 **Detailed Notes:** `Need_for_SystemVerilog.pdf`
-
----
-
-## Why Verification Matters
-
-- Verification ensures the design meets its specification
-- Bugs found late are extremely costly
-- Verification consumes the majority of project effort in real designs
+📄 **Detailed PDF:** `Need_for_SystemVerilog.pdf`
 
 ---
 
-## Limitations of Directed Testing
+## What This Document Covers
 
-- Tests only known scenarios
-- Does not scale with design complexity
-- Misses corner cases and rare conditions
-- Gives false confidence when tests pass
+This phase answers fundamental questions such as:
 
----
-
-## Constrained-Random Testing & Coverage
-
-- Randomization explores large input spaces automatically
-- Constraints guide stimulus to valid and meaningful scenarios
-- Functional coverage measures what has actually been tested
-- Together, they form a **coverage-driven verification loop**
+- What is verification, and why is it critical?
+- Why directed testing fails as design complexity grows
+- How constrained-random testing improves scalability
+- Why functional coverage is required to measure completeness
+- Why randomization alone is not sufficient
+- How layered testbench architectures enable reuse and maintainability
+- Why SystemVerilog is necessary for modern verification methodologies
 
 ---
 
-## Layered Testbench Concept
+## Key Verification Concepts Explained
 
-A layered testbench separates responsibilities into logical layers:
+### Directed Testing vs Constrained-Random Testing
+- Directed testing validates only known scenarios
+- Does not scale with large input spaces
+- Creates a false sense of confidence
 
-- Signal Layer
-- Transaction / Functional Layer
-- Scenario Layer
-- Test Layer
+Constrained-random testing:
+- Automatically explores large design spaces
+- Reduces human bias
+- Achieves higher coverage in less time when combined with coverage
 
-This structure improves:
+---
+
+### Functional Coverage
+- Measures what functionality has actually been exercised
+- Identifies untested scenarios and corner cases
+- Enables coverage-driven verification closure
+
+---
+
+### Layered Testbench Architecture
+A structured verification environment consisting of:
+
+- Signal Layer  
+- Transaction / Functional Layer  
+- Scenario Layer  
+- Test Layer  
+
+This architecture improves:
 - Reusability
-- Maintainability
-- Scalability
+- Debuggability
+- Scalability across projects
 
 ---
 
 ## Why SystemVerilog?
 
-SystemVerilog extends Verilog with features required for verification:
+SystemVerilog extends Verilog with verification-centric features such as:
 
 - Object-Oriented Programming
-- Constrained random stimulus
+- Constrained-random stimulus generation
 - Functional coverage
 - Interfaces and clocking blocks
 - Advanced synchronization mechanisms
 
+These features enable **modern, coverage-driven verification** that is not
+possible with Verilog alone.
+
 ---
 
-## Conclusion
+## Scope of This Phase
 
-SystemVerilog enables scalable, reusable, and coverage-driven verification
-environments that are not possible with traditional Verilog alone.
+✅ Conceptual foundations  
+✅ Verification methodology reasoning  
+❌ No SystemVerilog syntax  
+❌ No UVM  
+❌ No testbench code  
 
-📌 **Next Phase:** SystemVerilog Data Types and Language Foundations
+This phase focuses purely on **understanding the “why” behind verification**.
+
+---
+
+## What Comes Next?
+
+📌 **PHASE 2:** SystemVerilog Data Types and Language Foundations  
+Hands-on exploration of SystemVerilog constructs required to implement the
+concepts introduced here.
+
+---
+
+## Intended Audience
+
+- Beginners entering hardware verification
+- Students learning SystemVerilog
+- Engineers transitioning from design to verification
+- Anyone seeking a strong conceptual foundation before UVM
