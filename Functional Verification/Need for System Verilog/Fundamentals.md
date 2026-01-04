@@ -1,4 +1,5 @@
-# Need for SystemVerilog – Verification Fundamentals
+# Need for SystemVerilog – Verification Fundamentals  
+### Phase 1: Concepts Behind Modern Hardware Verification
 
 ## Overview
 
@@ -13,7 +14,8 @@ essential** for scalable, coverage-driven verification.
 Rather than focusing on syntax or tools, this phase explains the **core
 verification principles** used in industry.
 
-📄 **Detailed PDF:** `Need_for_SystemVerilog.pdf`
+📄 **Detailed Notes (PDF):**  
+👉 [Need for SystemVerilog – Verification Fundamentals](https://github.com/magantidatta/VLSI/blob/main/Functional%20Verification/Need%20for%20System%20Verilog/Need%20for%20SystemVerilog.pdf)
 
 ---
 
@@ -53,6 +55,7 @@ Constrained-random testing:
 ---
 
 ### Layered Testbench Architecture
+
 A structured verification environment consisting of:
 
 - Signal Layer  
@@ -96,15 +99,15 @@ This phase focuses purely on **understanding the “why” behind verification**
 
 ## What Comes Next?
 
-📌 **SystemVerilog Data Types and Language Foundations**
+📌 **PHASE 2: SystemVerilog Data Types and Language Foundations**  
 Hands-on exploration of SystemVerilog constructs required to implement the
-concepts introduced here.
+concepts introduced in this phase.
 
 ---
 
 ## Intended Audience
 
-- Beginners entering hardware verification
-- Students learning SystemVerilog
-- Engineers transitioning from design to verification
-- Anyone seeking a strong conceptual foundation before UVM
+- Beginners entering hardware verification  
+- Students learning SystemVerilog  
+- Engineers transitioning from design to verification  
+- Anyone seeking a strong conceptual foundation before UVM  
