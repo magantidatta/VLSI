@@ -16,7 +16,7 @@ Strong verification environments are built on **strong data modeling and
 execution semantics**.
 
 📄 **Detailed Notes (PDF):**  
-👉 [SystemVerilog Data Modeling & Execution Semantics – Day 2](https://github.com/magantidatta/VLSI/blob/main/Functional%20Verification/Need%20for%20System%20Verilog/Day2_SystemVerilog_DataTypes.pdf)
+👉 [SystemVerilog Data Modeling & Execution Semantics – Day 2](https://github.com/magantidatta/VLSI/blob/main/Functional%20Verification/Datatypes/SystemVerilog%20Language%20Constructs.pdf)
 
 ---
 
