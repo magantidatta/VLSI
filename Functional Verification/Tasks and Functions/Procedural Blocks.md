@@ -29,7 +29,7 @@ This phase is a **critical prerequisite** before moving into:
 - Structured testbench architectures  
 
 📄 **Detailed Notes (PDF):**  
-👉 [SystemVerilog Procedural Blocks, Tasks & Functions] (https://github.com/magantidatta/VLSI/blob/main/Functional%20Verification/Tasks%20and%20Functions/SystemVerilog%20Procedural%20Blocks.pdf)
+👉 [SystemVerilog Procedural Blocks, Tasks & Functions](https://github.com/magantidatta/VLSI/blob/main/Functional%20Verification/Tasks%20and%20Functions/SystemVerilog%20Procedural%20Blocks.pdf)
 
 ---
 
