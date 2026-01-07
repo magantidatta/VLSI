@@ -5,14 +5,25 @@ The verification is performed using a **layered, self-checking testbench archite
 
 ---
 
-## Overview
+## 📁 Source Code
+
+All the verification and RTL code for this project is available here:
+
+**Repository Path:**  
+https://github.com/magantidatta/VLSI/tree/main/Functional%20Verification/UART%20Protocol%20Verification/Codes
+
+You can clone or browse the code directly from the GitHub repository.
+
+---
+
+## 🧠 Overview
 
 UART (Universal Asynchronous Receiver Transmitter) is a widely used serial communication protocol in embedded systems and FPGA-based designs.  
 This project focuses on verifying the **correct functionality, baud-rate timing, and data integrity** of a UART Transmitter.
 
 ---
 
-## Objectives
+## 🎯 Objectives
 
 - Verify correct UART TX frame generation (1 start bit, 8 data bits LSB-first, 1 stop bit)
 - Validate baud-rate–controlled serial transmission based on configurable clock frequency and baud rate
@@ -20,7 +31,7 @@ This project focuses on verifying the **correct functionality, baud-rate timing,
 
 ---
 
-## UART Transmitter Design Summary
+## 🧩 UART Transmitter Design Summary
 
 - **Clock Frequency:** 100 MHz  
 - **Baud Rate:** 9600  
@@ -40,7 +51,7 @@ The UART transmitter is implemented using an **FSM** with the following states:
 
 ---
 
-## Verification Architecture
+## 🏗️ Verification Architecture
 
 The verification environment follows a **layered architecture**, separating stimulus generation, driving, monitoring, checking, and coverage.
 
@@ -51,7 +62,7 @@ The verification environment follows a **layered architecture**, separating stim
 
 ---
 
-## Verification Components
+## 🔧 Verification Components
 
 ### Transaction (`uart_transaction`)
 Represents a single UART packet.
@@ -129,7 +140,7 @@ Functional coverage is collected on transmitted data values:
 
 ---
 
-## Results
+## 📊 Results
 
 - **Simulator:** QuestaSim  
 - **Randomized Transactions:** 512  
@@ -143,7 +154,7 @@ All UART frames were correctly transmitted, monitored, and verified by the self-
 
 ---
 
-### Sample Simulation Output
+### 🖥️ Sample Simulation Output
 
 ```text
 [DRIVER] Packet=507 sent
