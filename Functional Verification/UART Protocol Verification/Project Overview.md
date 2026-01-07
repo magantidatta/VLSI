@@ -5,14 +5,15 @@ The verification is performed using a **layered, self-checking testbench archite
 
 ---
 
-## 📁 Source Code
+## 📁 Source Code & Report
 
-All the verification and RTL code for this project is available here:
-
-**Repository Path:**  
+**Verification and RTL Code:**  
 https://github.com/magantidatta/VLSI/tree/main/Functional%20Verification/UART%20Protocol%20Verification/Codes
 
-You can clone or browse the code directly from the GitHub repository.
+**PDF Report:**  
+https://github.com/magantidatta/VLSI/blob/main/Functional%20Verification/UART%20Protocol%20Verification/UART%20TRANSMITTER%20Protocol%20Verification.pdf
+
+You can clone or browse the code and report directly from the GitHub repository.
 
 ---
 
