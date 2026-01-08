@@ -1,4 +1,4 @@
-# Object-Oriented Programming (OOP) in SystemVerilog  
+# Object-Oriented Programming (OOPS) in SystemVerilog  
 ### Phase 5 (Part 1): Transaction-Level Modeling & Abstraction
 
 ## Overview
