@@ -58,7 +58,7 @@ It serves as both a **technical portfolio** and a **structured knowledge base**,
 
 ## 🚀 Future Additions
 - Concise notes on VLSI fundamentals
-- 
+
 ---
 
 ## 📌 Note
