@@ -35,8 +35,6 @@ It serves as both a **technical portfolio** and a **structured knowledge base**,
 
 ### 📝 VLSI Notes & Learning Resources in future
 - Concise notes on VLSI fundamentals
-- Interview-oriented theory and design insights
-- Exam and industry preparation material
 
 ---
 
@@ -60,10 +58,7 @@ It serves as both a **technical portfolio** and a **structured knowledge base**,
 
 ## 🚀 Future Additions
 - Concise notes on VLSI fundamentals
-- Interview-oriented theory and design insights
-- Exam and industry preparation material
 - 
-
 ---
 
 ## 📌 Note
