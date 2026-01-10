@@ -20,7 +20,7 @@ Modern verification is not sequential.
 It is **parallel, concurrent, and highly synchronized**.
 
 📄 **Detailed Notes (PDF):**  
-👉 [Threads & Interprocess Communication in SystemVerilog](https://github.com/magantidatta/VLSI/blob/main/Functional%20Verification/Threads%20%26%20IPC/Threads_IPC.pdf)
+👉 [Threads & Interprocess Communication in SystemVerilog](https://github.com/magantidatta/VLSI/blob/main/Functional%20Verification/Interprocess%20Communication/Threads.pdf)
 
 ---
 
