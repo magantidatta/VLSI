@@ -6,6 +6,15 @@
 
 ---
 
+## Project Report
+
+📄 **Complete Project Report (PDF):**  
+🔗 https://github.com/magantidatta/VLSI/blob/main/Digital_Design/Digital%20Project%20Report.pdf
+
+This report contains the detailed explanation of the stack processor design, Verilog implementation, testbench, simulation waveforms, RTL schematic, and result analysis.
+
+---
+
 ## Abstract
 
 This project focuses on the design and simulation of a **stack-based processor** using **Verilog HDL**. A stack processor follows the **Last-In First-Out (LIFO)** principle to store and manipulate data. The processor supports basic **arithmetic operations** such as addition, subtraction, multiplication, and division, along with **logical operations** including AND, OR, XOR, and NOT.
@@ -66,66 +75,9 @@ In this project, an **8-bit stack processor** is designed using Verilog HDL to e
 
 ---
 
-## Methodology
-
-The stack processor is implemented using synchronous Verilog logic triggered on the positive edge of the clock. A reset signal initializes the stack pointer and output.
-
-- **PUSH:** Stores input data and increments stack pointer  
-- **POP:** Retrieves top element and decrements stack pointer  
-- **Arithmetic/Logical Operations:**  
-  - Operate on top stack elements  
-  - Store result back in stack  
-  - Reduce stack size accordingly  
-
-A Verilog testbench generates clock and reset signals and applies instruction sequences to verify functionality.
-
----
-
-## Simulation and Verification
-
-The testbench performs the following:
-1. Reset initialization  
-2. PUSH operations  
-3. Arithmetic operations (ADD, SUB, MULT, DIV)  
-4. Logical operations (AND, OR, XOR, NOT)  
-5. POP operations to verify LIFO behavior  
-
-Simulation outputs are monitored using waveform analysis.
-
----
-
-## Results and Discussion
-
-Simulation results confirm correct stack processor behavior:
-
-- PUSH and POP operations follow LIFO principle  
-- Arithmetic operations produce accurate results  
-- Logical operations function correctly  
-- Stack pointer updates as expected  
-
----
-
-## Outputs
-
-- Behavioral Simulation Waveforms  
-- Timing Diagram  
-- RTL Schematic  
-- Post-Implementation Results  
-
----
-
 ## Conclusion
 
-The stack processor designed in this project successfully performs stack-based arithmetic and logical operations. The simulation validates correct functionality, demonstrating the effectiveness of stack-based processor architecture.
-
----
-
-## Future Scope
-
-- Increase stack depth and data width  
-- Add more instructions  
-- Implement instruction memory  
-- FPGA hardware implementation  
+The stack processor designed in this project successfully performs stack-based arithmetic and logical operations. Simulation results validate correct functionality, demonstrating the effectiveness of stack-based processor architecture.
 
 ---
 
