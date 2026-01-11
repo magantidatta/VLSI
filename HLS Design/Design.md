@@ -96,6 +96,24 @@ The simplicity of the Full Adder makes this project an ideal starting point befo
 
 ---
 
+## Repository and Resources
+
+You can find all the source codes and supporting files for this project at:
+
+**Codes:**  
+https://github.com/magantidatta/VLSI/tree/main/HLS%20Design/Full%20Adder%20Design%20Codes
+
+**Project Manual / HLS Design Flow Document:**  
+https://github.com/magantidatta/VLSI/blob/main/HLS%20Design/HLS%20Design%20Flow.pdf
+
+These resources contain:
+- C++ design and testbench code  
+- Synthesized RTL files  
+- Project setup screenshots  
+- Step-by-step HLS design flow documentation
+
+---
+
 ## Conclusion
 
 This project demonstrates how High-Level Synthesis simplifies the hardware design process by enabling designers to work at a higher abstraction level while still producing efficient, synthesizable RTL. Using Vitis HLS, a C++ description of a Full Adder was successfully converted into Verilog, verified through simulation, and integrated into an FPGA design flow.
@@ -109,4 +127,3 @@ The methodology presented here can be extended to more complex digital systems s
 **MAGANTI SHANMUKHA SRI DATTA**  
 M.Tech – FPGA & VLSI Design  
 Vitis HLS | Verilog | SystemVerilog | Verification
-
