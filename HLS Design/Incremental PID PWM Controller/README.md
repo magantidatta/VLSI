@@ -7,6 +7,10 @@ The design focuses on **reduced computational complexity**, **efficient hardware
 Unlike conventional PID controllers that compute absolute control outputs, the **incremental PID algorithm computes only the change in control output**, making it well suited for FPGA-based embedded systems.
 
 ---
+📄 **Detailed Design Report:**  
+👉 [ASIC Term Project Report – Incremental PID–PWM Controller (PDF)](https://github.com/magantidatta/VLSI/blob/main/HLS%20Design/Incremental%20PID%20PWM%20Controller/ASIC_Term_Project.pdf)
+
+---
 
 ## 🧠 Key Features
 - Incremental PID control using **scaled integer arithmetic**
