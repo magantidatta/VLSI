@@ -1,0 +1,364 @@
+****************************************
+Report : timing
+        -path_type full
+        -delay_type max
+        -max_paths 10
+        -report_by design
+Design : SPI_Protocol
+Version: U-2022.12-SP3
+Date   : Thu Apr 16 04:58:19 2026
+****************************************
+
+  Startpoint: SPImaster/clkdiv_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: SPImaster/clkdiv_reg[0] (rising edge-triggered flip-flop clocked by clk)
+  Mode: functional_mode
+  Corner: corner_cmax
+  Scenario: scenario_worst
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 1.43      1.43
+
+  SPImaster/clkdiv_reg[3]/CLK (DFFX1)              0.00      1.43 r
+  SPImaster/clkdiv_reg[3]/Q (DFFX1)                0.73      2.16 f
+  SPImaster/ctmTdsLR_1_6/ZN (INVX0)                0.12      2.28 r
+  SPImaster/ctmTdsLR_2_7/QN (NOR2X0)               0.13      2.41 f
+  SPImaster/U44/QN (NAND4X0)                       0.19      2.59 r
+  SPImaster/U53/QN (NOR3X0)                        0.26      2.85 f
+  SPImaster/U54/Q (OR2X1)                          0.24      3.09 f
+  SPImaster/gre_a_INV_543_inst_235/ZN (INVX0)      0.28      3.37 r
+  SPImaster/gre_a_INV_240_inst_234/ZN (INVX0)      0.30      3.67 f
+  SPImaster/U77/QN (NOR2X0)                        0.18      3.85 r
+  SPImaster/clkdiv_reg[0]/D (DFFX1)                0.00      3.85 r
+  data arrival time                                          3.85
+
+  clock clk (rise edge)                            5.00      5.00
+  clock network delay (propagated)                 0.51      5.51
+  SPImaster/clkdiv_reg[0]/CLK (DFFX1)              0.00      5.51 r
+  clock uncertainty                               -0.10      5.41
+  library setup time                              -0.29      5.12
+  data required time                                         5.12
+  ------------------------------------------------------------------------
+  data required time                                         5.12
+  data arrival time                                         -3.85
+  ------------------------------------------------------------------------
+  slack (MET)                                                1.27
+
+
+
+  Startpoint: SPImaster/clkdiv_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: SPImaster/clkdiv_reg[1] (rising edge-triggered flip-flop clocked by clk)
+  Mode: functional_mode
+  Corner: corner_cmax
+  Scenario: scenario_worst
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 1.43      1.43
+
+  SPImaster/clkdiv_reg[3]/CLK (DFFX1)              0.00      1.43 r
+  SPImaster/clkdiv_reg[3]/Q (DFFX1)                0.73      2.16 f
+  SPImaster/ctmTdsLR_1_6/ZN (INVX0)                0.12      2.28 r
+  SPImaster/ctmTdsLR_2_7/QN (NOR2X0)               0.13      2.41 f
+  SPImaster/U44/QN (NAND4X0)                       0.19      2.59 r
+  SPImaster/U53/QN (NOR3X0)                        0.26      2.85 f
+  SPImaster/U54/Q (OR2X1)                          0.24      3.09 f
+  SPImaster/gre_a_INV_543_inst_235/ZN (INVX0)      0.28      3.37 r
+  SPImaster/ctmTdsLR_1_4/Q (OA221X1)               0.37      3.74 r
+  SPImaster/clkdiv_reg[1]/D (DFFASX2)              0.00      3.74 r
+  data arrival time                                          3.74
+
+  clock clk (rise edge)                            5.00      5.00
+  clock network delay (propagated)                 0.51      5.51
+  SPImaster/clkdiv_reg[1]/CLK (DFFASX2)            0.00      5.51 r
+  clock uncertainty                               -0.10      5.41
+  library setup time                              -0.37      5.03
+  data required time                                         5.03
+  ------------------------------------------------------------------------
+  data required time                                         5.03
+  data arrival time                                         -3.74
+  ------------------------------------------------------------------------
+  slack (MET)                                                1.29
+
+
+
+  Startpoint: SPImaster/clkdiv_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: SPImaster/sck_reg (rising edge-triggered flip-flop clocked by clk)
+  Mode: functional_mode
+  Corner: corner_cmax
+  Scenario: scenario_worst
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 1.43      1.43
+
+  SPImaster/clkdiv_reg[3]/CLK (DFFX1)              0.00      1.43 r
+  SPImaster/clkdiv_reg[3]/Q (DFFX1)                0.73      2.16 f
+  SPImaster/ctmTdsLR_1_6/ZN (INVX0)                0.12      2.28 r
+  SPImaster/ctmTdsLR_2_7/QN (NOR2X0)               0.13      2.41 f
+  SPImaster/U44/QN (NAND4X0)                       0.19      2.59 r
+  SPImaster/U53/QN (NOR3X0)                        0.26      2.85 f
+  SPImaster/U54/Q (OR2X1)                          0.24      3.09 f
+  SPImaster/gre_a_INV_543_inst_235/ZN (INVX0)      0.28      3.37 r
+  SPImaster/U3/Q (OA222X1)                         0.48      3.85 r
+  SPImaster/sck_reg/D (DFFX1)                      0.00      3.85 r
+  data arrival time                                          3.85
+
+  clock clk (rise edge)                            5.00      5.00
+  clock network delay (propagated)                 0.67      5.67
+  SPImaster/sck_reg/CLK (DFFX1)                    0.00      5.67 r
+  clock uncertainty                               -0.10      5.57
+  library setup time                              -0.26      5.31
+  data required time                                         5.31
+  ------------------------------------------------------------------------
+  data required time                                         5.31
+  data arrival time                                         -3.85
+  ------------------------------------------------------------------------
+  slack (MET)                                                1.45
+
+
+
+  Startpoint: SPImaster/clkdiv_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: SPImaster/clkdiv_reg[5] (rising edge-triggered flip-flop clocked by clk)
+  Mode: functional_mode
+  Corner: corner_cmax
+  Scenario: scenario_worst
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 1.43      1.43
+
+  SPImaster/clkdiv_reg[3]/CLK (DFFX1)              0.00      1.43 r
+  SPImaster/clkdiv_reg[3]/Q (DFFX1)                0.73      2.16 f
+  SPImaster/ctmTdsLR_1_6/ZN (INVX0)                0.12      2.28 r
+  SPImaster/ctmTdsLR_2_7/QN (NOR2X0)               0.13      2.41 f
+  SPImaster/U44/QN (NAND4X0)                       0.19      2.59 r
+  SPImaster/U53/QN (NOR3X0)                        0.26      2.85 f
+  SPImaster/U54/Q (OR2X1)                          0.24      3.09 f
+  SPImaster/gre_a_INV_543_inst_235/ZN (INVX0)      0.28      3.37 r
+  SPImaster/ctmTdsLR_1_8/Q (OA221X1)               0.38      3.75 r
+  SPImaster/clkdiv_reg[5]/D (DFFX1)                0.00      3.75 r
+  data arrival time                                          3.75
+
+  clock clk (rise edge)                            5.00      5.00
+  clock network delay (propagated)                 0.57      5.57
+  SPImaster/clkdiv_reg[5]/CLK (DFFX1)              0.00      5.57 r
+  clock uncertainty                               -0.10      5.47
+  library setup time                              -0.25      5.22
+  data required time                                         5.22
+  ------------------------------------------------------------------------
+  data required time                                         5.22
+  data arrival time                                         -3.75
+  ------------------------------------------------------------------------
+  slack (MET)                                                1.47
+
+
+
+  Startpoint: SPImaster/clkdiv_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: SPImaster/clkdiv_reg[7] (rising edge-triggered flip-flop clocked by clk)
+  Mode: functional_mode
+  Corner: corner_cmax
+  Scenario: scenario_worst
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 1.43      1.43
+
+  SPImaster/clkdiv_reg[3]/CLK (DFFX1)              0.00      1.43 r
+  SPImaster/clkdiv_reg[3]/Q (DFFX1)                0.73      2.16 f
+  SPImaster/ctmTdsLR_1_6/ZN (INVX0)                0.12      2.28 r
+  SPImaster/ctmTdsLR_2_7/QN (NOR2X0)               0.13      2.41 f
+  SPImaster/U44/QN (NAND4X0)                       0.19      2.59 r
+  SPImaster/U53/QN (NOR3X0)                        0.26      2.85 f
+  SPImaster/U54/Q (OR2X1)                          0.24      3.09 f
+  SPImaster/gre_a_INV_543_inst_235/ZN (INVX0)      0.28      3.37 r
+  SPImaster/U80/Q (OA221X1)                        0.37      3.74 r
+  SPImaster/clkdiv_reg[7]/D (DFFX1)                0.00      3.74 r
+  data arrival time                                          3.74
+
+  clock clk (rise edge)                            5.00      5.00
+  clock network delay (propagated)                 0.67      5.67
+  SPImaster/clkdiv_reg[7]/CLK (DFFX1)              0.00      5.67 r
+  clock uncertainty                               -0.10      5.57
+  library setup time                              -0.26      5.31
+  data required time                                         5.31
+  ------------------------------------------------------------------------
+  data required time                                         5.31
+  data arrival time                                         -3.74
+  ------------------------------------------------------------------------
+  slack (MET)                                                1.57
+
+
+
+  Startpoint: SPImaster/clkdiv_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: SPImaster/clkdiv_reg[4] (rising edge-triggered flip-flop clocked by clk)
+  Mode: functional_mode
+  Corner: corner_cmax
+  Scenario: scenario_worst
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 1.43      1.43
+
+  SPImaster/clkdiv_reg[3]/CLK (DFFX1)              0.00      1.43 r
+  SPImaster/clkdiv_reg[3]/Q (DFFX1)                0.73      2.16 f
+  SPImaster/ctmTdsLR_1_6/ZN (INVX0)                0.12      2.28 r
+  SPImaster/ctmTdsLR_2_7/QN (NOR2X0)               0.13      2.41 f
+  SPImaster/U44/QN (NAND4X0)                       0.19      2.59 r
+  SPImaster/U53/QN (NOR3X0)                        0.26      2.85 f
+  SPImaster/U54/Q (OR2X1)                          0.24      3.09 f
+  SPImaster/gre_a_INV_543_inst_235/ZN (INVX0)      0.28      3.37 r
+  SPImaster/U79/Q (OA221X1)                        0.37      3.74 r
+  SPImaster/clkdiv_reg[4]/D (DFFX1)                0.00      3.74 r
+  data arrival time                                          3.74
+
+  clock clk (rise edge)                            5.00      5.00
+  clock network delay (propagated)                 0.67      5.67
+  SPImaster/clkdiv_reg[4]/CLK (DFFX1)              0.00      5.67 r
+  clock uncertainty                               -0.10      5.57
+  library setup time                              -0.26      5.31
+  data required time                                         5.31
+  ------------------------------------------------------------------------
+  data required time                                         5.31
+  data arrival time                                         -3.74
+  ------------------------------------------------------------------------
+  slack (MET)                                                1.57
+
+
+
+  Startpoint: SPImaster/clkdiv_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: SPImaster/clkdiv_reg[6] (rising edge-triggered flip-flop clocked by clk)
+  Mode: functional_mode
+  Corner: corner_cmax
+  Scenario: scenario_worst
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 1.43      1.43
+
+  SPImaster/clkdiv_reg[3]/CLK (DFFX1)              0.00      1.43 r
+  SPImaster/clkdiv_reg[3]/Q (DFFX1)                0.73      2.16 f
+  SPImaster/ctmTdsLR_1_6/ZN (INVX0)                0.12      2.28 r
+  SPImaster/ctmTdsLR_2_7/QN (NOR2X0)               0.13      2.41 f
+  SPImaster/U44/QN (NAND4X0)                       0.19      2.59 r
+  SPImaster/U53/QN (NOR3X0)                        0.26      2.85 f
+  SPImaster/U54/Q (OR2X1)                          0.24      3.09 f
+  SPImaster/gre_a_INV_543_inst_235/ZN (INVX0)      0.28      3.37 r
+  SPImaster/U59/Q (AND3X1)                         0.42      3.79 r
+  SPImaster/clkdiv_reg[6]/D (DFFX1)                0.00      3.79 r
+  data arrival time                                          3.79
+
+  clock clk (rise edge)                            5.00      5.00
+  clock network delay (propagated)                 0.79      5.79
+  SPImaster/clkdiv_reg[6]/CLK (DFFX1)              0.00      5.79 r
+  clock uncertainty                               -0.10      5.69
+  library setup time                              -0.25      5.44
+  data required time                                         5.44
+  ------------------------------------------------------------------------
+  data required time                                         5.44
+  data arrival time                                         -3.79
+  ------------------------------------------------------------------------
+  slack (MET)                                                1.65
+
+
+
+  Startpoint: SPImaster/clkdiv_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: SPImaster/clkdiv_reg[2] (rising edge-triggered flip-flop clocked by clk)
+  Mode: functional_mode
+  Corner: corner_cmax
+  Scenario: scenario_worst
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 1.43      1.43
+
+  SPImaster/clkdiv_reg[3]/CLK (DFFX1)              0.00      1.43 r
+  SPImaster/clkdiv_reg[3]/Q (DFFX1)                0.73      2.16 f
+  SPImaster/ctmTdsLR_1_6/ZN (INVX0)                0.12      2.28 r
+  SPImaster/ctmTdsLR_2_7/QN (NOR2X0)               0.13      2.41 f
+  SPImaster/U44/QN (NAND4X0)                       0.19      2.59 r
+  SPImaster/U53/QN (NOR3X0)                        0.26      2.85 f
+  SPImaster/U54/Q (OR2X1)                          0.24      3.09 f
+  SPImaster/gre_a_INV_543_inst_235/ZN (INVX0)      0.28      3.37 r
+  SPImaster/gre_a_INV_240_inst_234/ZN (INVX0)      0.30      3.67 f
+  SPImaster/U78/QN (NOR3X0)                        0.23      3.90 r
+  SPImaster/clkdiv_reg[2]/D (DFFX1)                0.00      3.90 r
+  data arrival time                                          3.90
+
+  clock clk (rise edge)                            5.00      5.00
+  clock network delay (propagated)                 1.16      6.16
+  SPImaster/clkdiv_reg[2]/CLK (DFFX1)              0.00      6.16 r
+  clock uncertainty                               -0.10      6.06
+  library setup time                              -0.28      5.78
+  data required time                                         5.78
+  ------------------------------------------------------------------------
+  data required time                                         5.78
+  data arrival time                                         -3.90
+  ------------------------------------------------------------------------
+  slack (MET)                                                1.88
+
+
+
+  Startpoint: SPImaster/clkdiv_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: SPImaster/clkdiv_reg[3] (rising edge-triggered flip-flop clocked by clk)
+  Mode: functional_mode
+  Corner: corner_cmax
+  Scenario: scenario_worst
+  Path Group: clk
+  Path Type: max
+
+  Point                                            Incr      Path  
+  ------------------------------------------------------------------------
+  clock clk (rise edge)                            0.00      0.00
+  clock network delay (propagated)                 1.43      1.43
+
+  SPImaster/clkdiv_reg[3]/CLK (DFFX1)              0.00      1.43 r
+  SPImaster/clkdiv_reg[3]/Q (DFFX1)                0.73      2.16 f
+  SPImaster/ctmTdsLR_1_6/ZN (INVX0)                0.12      2.28 r
+  SPImaster/ctmTdsLR_2_7/QN (NOR2X0)               0.13      2.41 f
+  SPImaster/U44/QN (NAND4X0)                       0.19      2.59 r
+  SPImaster/U53/QN (NOR3X0)                        0.26      2.85 f
+  SPImaster/U54/Q (OR2X1)                          0.24      3.09 f
+  SPImaster/gre_a_INV_543_inst_235/ZN (INVX0)      0.28      3.37 r
+  SPImaster/ctmTdsLR_1_5/Q (OA221X1)               0.39      3.76 r
+  SPImaster/clkdiv_reg[3]/D (DFFX1)                0.00      3.76 r
+  data arrival time                                          3.76
+
+  clock clk (rise edge)                            5.00      5.00
+  clock network delay (propagated)                 1.42      6.42
+  SPImaster/clkdiv_reg[3]/CLK (DFFX1)              0.00      6.42 r
+  clock uncertainty                               -0.10      6.32
+  library setup time                              -0.25      6.06
+  data required time                                         6.06
+  ------------------------------------------------------------------------
+  data required time                                         6.06
+  data arrival time                                         -3.76
+  ------------------------------------------------------------------------
+  slack (MET)                                                2.31
+
+
+1
