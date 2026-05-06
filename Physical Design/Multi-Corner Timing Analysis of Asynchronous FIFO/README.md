@@ -11,6 +11,15 @@ The focus of this project is:
 > Achieving clean setup and hold timing closure across multiple timing corners while optimizing Clock Tree Synthesis (CTS), skew, and power integrity.
 
 ---
+# 🧩 Final Layout
+
+![Final Layout](https://github.com/magantidatta/VLSI/blob/main/Physical%20Design/Multi-Corner%20Timing%20Analysis%20of%20Asynchronous%20FIFO/final_layout.png)
+
+✔ Final routed layout after CTS and timing closure  
+✔ Dual-clock asynchronous FIFO physical implementation  
+✔ Clean placement, CTS, routing, and sign-off completion  
+
+---
 
 ## 🎯 Key Highlights
 - Achieved timing closure with **zero setup and hold violations**
